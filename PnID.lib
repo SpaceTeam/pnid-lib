@@ -130,6 +130,18 @@ X O ~ 100 100 0 D 50 39 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Flowchart_State
+#
+DEF Flowchart_State U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H I C CNN
+F1 "Flowchart_State" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 100 200 -100 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # GasBottle
 #
 DEF GasBottle GasBottle 0 40 N Y 1 F N
