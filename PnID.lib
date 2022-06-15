@@ -721,6 +721,23 @@ X ~ ~ 200 0 0 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Valve_OverPressure_Small
+#
+DEF Valve_OverPressure_Small Valve_Overpressure_Small 0 40 Y Y 1 F N
+F0 "Valve_Overpressure_Small" 0 -130 20 H I C CNN
+F1 "Valve_OverPressure_Small" 20 270 20 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 4 0 0 0 0 0 -120 95 -120 -95 0 0 N
+P 6 0 1 0 30 100 -30 100 30 80 -30 80 30 60 -30 60 N
+P 2 1 1 0 0 0 0 100 N
+P 4 1 1 0 0 0 120 -95 120 95 0 0 N
+X ~ ~ -120 0 0 R 50 50 1 1 B
+X ~ ~ 120 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # Valve_Pneumatic
 #
 DEF Valve_Pneumatic Valve_Pneumatic 0 40 N Y 1 F N
