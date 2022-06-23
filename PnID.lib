@@ -264,15 +264,14 @@ P 2 0 1 0 50 -20 -50 -20 N
 ENDDRAW
 ENDDEF
 #
-# Logging
+# Label
 #
-DEF Logging U 0 40 Y Y 1 F N
+DEF Label U 0 40 Y Y 1 F N
 F0 "U" 0 220 50 H I C CNN
-F1 "Logging" 0 150 50 H I C CNN
+F1 "Label" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-T 0 0 10 157 0 0 0 Logging Normal 0 C C
 S -485 140 480 -140 0 0 0 N
 ENDDRAW
 ENDDEF
