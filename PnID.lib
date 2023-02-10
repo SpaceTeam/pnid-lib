@@ -768,6 +768,25 @@ X ~ ~ 200 0 0 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Valve_Manual_3Way
+#
+DEF Valve_Manual_3Way U 0 40 Y Y 1 F N
+F0 "U" 0 770 50 H V C CNN
+F1 "Valve_Manual_3Way" 0 680 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -100 430 100 430 N
+P 2 1 1 0 0 280 0 430 N
+P 4 1 1 0 0 280 -200 430 -200 130 0 280 N
+P 4 1 1 0 150 80 0 280 -150 80 150 80 N
+P 4 1 1 0 200 430 0 280 200 130 200 430 N
+X ~ ~ -200 280 0 R 50 50 1 1 B
+X ~ ~ 0 80 0 U 50 50 1 1 B
+X ~ ~ 200 280 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # Valve_Needle
 #
 DEF Valve_Needle Valve_Needle 0 40 N Y 1 F N
@@ -997,10 +1016,11 @@ ENDDEF
 # Venturi
 #
 DEF Venturi Venturi 0 40 N Y 1 F N
-F0 "Venturi" 0 -200 50 H V C CNN
-F1 "Venturi" 0 -300 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F0 "Venturi" 0 -200 20 H V C CNN
+F1 "Venturi" 0 -300 20 H I C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "%" 0 0 20 H I C CNN "Unit"
 DRAW
 A 0 -350 320 513 1287 0 0 0 N 200 -100 -200 -100
 A 0 350 320 -1287 -513 0 0 0 N -200 100 200 100
