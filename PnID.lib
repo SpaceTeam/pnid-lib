@@ -289,6 +289,19 @@ S -100 -95 100 105 1 1 0 N
 ENDDRAW
 ENDDEF
 #
+# Retract
+#
+DEF Retract Retract 0 40 Y Y 1 F N
+F0 "Retract" -5 -260 50 H I C CNN
+F1 "Retract" -5 -185 50 H V C CNN
+F2 "" -5 0 50 H I C CNN
+F3 "" -5 0 50 H I C CNN
+DRAW
+T 0 0 5 118 0 1 1 R Normal 0 C C
+S -100 -95 100 105 1 1 0 N
+ENDDRAW
+ENDDEF
+#
 # Orifice
 #
 DEF Orifice Orifice 0 40 N Y 1 F N
@@ -1178,6 +1191,20 @@ F3 "" 0 0 50 H I C CNN
 F4 "V" 0 0 50 H I C CNN "Unit"
 DRAW
 T 0 0 0 118 0 0 0 V Normal 0 C C
+S -100 100 100 -100 0 1 0 N
+X ~ ~ 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# continuity
+#
+DEF continuity continuity 0 40 Y Y 1 F N
+F0 "continuity" -200 90 20 H I C CNN
+F1 "continuity" -200 0 20 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 118 0 0 0 C Normal 0 C C
 S -100 100 100 -100 0 1 0 N
 X ~ ~ 200 0 100 L 50 50 1 1 I
 ENDDRAW
