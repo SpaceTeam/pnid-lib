@@ -3242,7 +3242,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "QuickConnect"
+	(symbol "QuickConnect_Half_Open"
 		(pin_numbers
 			(hide yes)
 		)
@@ -3260,7 +3260,7 @@
 				)
 			)
 		)
-		(property "Value" "QuickConnect"
+		(property "Value" "QuickConnect_Half_Open"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -3295,7 +3295,268 @@
 				(hide yes)
 			)
 		)
-		(symbol "QuickConnect_0_0"
+		(symbol "QuickConnect_Half_Open_0_0"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -1.27 0) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "QuickConnect_Half_Open_1_1"
+			(pin bidirectional line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "QuickConnect_Half_Sealing"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "QuickConnect"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QuickConnect_Half_Sealing"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "QuickConnect_Half_Sealing_0_0"
+			(circle
+				(center -3.81 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -1.27 0) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "QuickConnect_Half_Sealing_1_1"
+			(pin bidirectional line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "QuickConnect_Pair_Dissimilar"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "QuickConnect"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QuickConnect_Pair_Dissimilar"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "QuickConnect_Pair_Dissimilar_0_0"
 			(circle
 				(center -3.81 0)
 				(radius 1.27)
@@ -3381,19 +3642,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 1.27 0)
+					(xy 5.08 0) (xy 1.27 0)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 3.81 0)
-				(radius 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -3403,7 +3653,7 @@
 				)
 			)
 		)
-		(symbol "QuickConnect_1_1"
+		(symbol "QuickConnect_Pair_Dissimilar_1_1"
 			(pin bidirectional line
 				(at -7.62 0 0)
 				(length 2.54)
@@ -3443,7 +3693,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "QuickConnect_Half"
+	(symbol "QuickConnect_Pair_Open"
 		(pin_numbers
 			(hide yes)
 		)
@@ -3461,7 +3711,7 @@
 				)
 			)
 		)
-		(property "Value" "QuickConnect_Half"
+		(property "Value" "QuickConnect_Pair_Open"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -3496,10 +3746,11 @@
 				(hide yes)
 			)
 		)
-		(symbol "QuickConnect_Half_0_0"
-			(circle
-				(center -3.81 0)
-				(radius 1.27)
+		(symbol "QuickConnect_Pair_Open_0_0"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -5.08 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3511,18 +3762,6 @@
 			(polyline
 				(pts
 					(xy -1.27 0) (xy -3.81 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -3556,10 +3795,64 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 1.27 0) (xy 3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
-		(symbol "QuickConnect_Half_1_1"
+		(symbol "QuickConnect_Pair_Open_1_1"
 			(pin bidirectional line
 				(at -7.62 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -3579,140 +3872,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "QuickConnect_Half_Short"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0.254 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "QuickConnect_Half_Short"
-			(at 0.254 4.826 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "QuickConnect_Half_Short_1_1"
-			(circle
-				(center -3.81 0)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 0) (xy -3.81 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy -1.27 0) (xy -3.81 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at -6.096 0 0)
-				(length 0.9906)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "QuickConnect_Short"
+	(symbol "QuickConnect_Pair_Sealing"
 		(pin_numbers
 			(hide yes)
 		)
@@ -3730,7 +3890,7 @@
 				)
 			)
 		)
-		(property "Value" "QuickConnect_Short"
+		(property "Value" "QuickConnect_Pair_Sealing"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -3765,7 +3925,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "QuickConnect_Short_0_0"
+		(symbol "QuickConnect_Pair_Sealing_0_0"
 			(circle
 				(center -3.81 0)
 				(radius 1.27)
@@ -3873,10 +4033,10 @@
 				)
 			)
 		)
-		(symbol "QuickConnect_Short_1_1"
+		(symbol "QuickConnect_Pair_Sealing_1_1"
 			(pin bidirectional line
-				(at -6.096 0 0)
-				(length 0.9906)
+				(at -7.62 0 0)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -3893,8 +4053,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.096 0 180)
-				(length 0.9906)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
