@@ -3951,7 +3951,7 @@
 		(symbol "Pressure_Gauge_0_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy -1.27 1.27)
+					(xy 1.27 1.27) (xy -0.635 -1.905) (xy -1.905 -0.635) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
