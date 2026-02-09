@@ -6548,7 +6548,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Sensor_Temperature"
+	(symbol "Sensor_Temperature_H"
 		(pin_numbers
 			(hide yes)
 		)
@@ -6567,7 +6567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Sensor_Temperature"
+		(property "Value" "Sensor_Temperature_H"
 			(at 3.81 -1.27 0)
 			(effects
 				(font
@@ -6621,7 +6621,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Sensor_Temperature_0_0"
+		(symbol "Sensor_Temperature_H_0_0"
 			(text "T"
 				(at 0 0 0)
 				(effects
@@ -6631,7 +6631,7 @@
 				)
 			)
 		)
-		(symbol "Sensor_Temperature_0_1"
+		(symbol "Sensor_Temperature_H_0_1"
 			(circle
 				(center 0 0)
 				(radius 2.54)
@@ -6644,9 +6644,125 @@
 				)
 			)
 		)
-		(symbol "Sensor_Temperature_1_1"
+		(symbol "Sensor_Temperature_H_1_1"
 			(pin bidirectional line
 				(at -5.08 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Sensor_Temperature_V"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Sensor_Temperature"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Sensor_Temperature_H"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sensor Temperature"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit" "˚C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Sensor_Temperature_V_0_0"
+			(text "T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.9972 2.9972)
+					)
+				)
+			)
+		)
+		(symbol "Sensor_Temperature_V_0_1"
+			(circle
+				(center 0 0)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Sensor_Temperature_V_1_1"
+			(pin bidirectional line
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "~"
 					(effects
