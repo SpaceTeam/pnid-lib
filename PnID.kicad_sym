@@ -2261,7 +2261,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "GasBottle"
-			(at 0 -8.89 0)
+			(at 0 -6.858 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -2271,6 +2271,7 @@
 		)
 		(property "Value" "GasBottle"
 			(at 0 -1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,6 +2298,7 @@
 		)
 		(property "Description" "Gas Bottle"
 			(at 0 1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,12 +2306,22 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 0 -10.16 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Contains" "Content"
+			(at 0 -11.43 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
 			)
 		)
 		(symbol "GasBottle_0_0"
