@@ -152,6 +152,7 @@
 		)
 		(property "Description" "Bottle Pressure Regulator"
 			(at 0.762 -3.81 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,6 +186,18 @@
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 3.175) (xy -5.715 2.54) (xy -5.08 1.905) (xy -4.445 3.175)
 				)
 				(stroke
 					(width 0)
@@ -303,6 +316,18 @@
 			)
 			(polyline
 				(pts
+					(xy 3.175 3.175) (xy 1.905 2.54) (xy 2.54 1.905) (xy 3.175 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 3.81 1.27) (xy 3.81 -1.27) (xy 7.62 1.27) (xy 7.62 -1.27) (xy 3.81 1.27)
 				)
 				(stroke
@@ -375,22 +400,6 @@
 			)
 		)
 		(symbol "BottlePressureRegulator_1_1"
-			(text "P"
-				(at -5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "P"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin input line
 				(at -8.89 0 0)
 				(length 1.27)
